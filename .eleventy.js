@@ -2,7 +2,7 @@ const htmlmin = require('html-minifier')
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/assets')
-  eleventyConfig.addPassthroughCopy({'src/favicons': ''})
+  eleventyConfig.addPassthroughCopy({'src/favicons': '/'})
 
   eleventyConfig.setBrowserSyncConfig({
     https: true

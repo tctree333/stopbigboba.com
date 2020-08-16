@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/main.css"/>
+        <script defer src="/js/global.min.js"></script>
+        <title>Stop Big Boba. Join the Fight.</title>
+        <meta name="description" content="Big Boba has preyed on our teenagers for too long. Join us as we fight against Big Boba and their poision.">
+    </head>
+    <body>
+        <div class="relative">
+            <picture>
+                <source srcset="/assets/400.jpg" media="(max-width: 400px)"/>
+                <source srcset="/assets/500.jpg" media="(max-width: 500px)"/>
+                <source srcset="/assets/600.jpg" media="(max-width: 600px)"/>
+                <source srcset="/assets/800.jpg" media="(max-width: 800px)"/>
+                <source srcset="/assets/1000.jpg" media="(max-width:1000px)"/>
+                <source srcset="/assets/1500.jpg" media="(max-width:1500px)"/>
+                <source srcset="/assets/2000.jpg" media="(min-width:1501px)"/>
+                <img class="static block w-full darken-40"
+                     src="/assets/400.jpg"
+                     alt="people holding a sign at a protest"/>
+            </picture>
+            <div class="absolute bottom-0 w-full top-50">
+                <div class="absolute inset-x-0 top-0 -mt-16">
+                    <h1 class="block text-3xl font-bold leading-tight tracking-wide text-center text-gray-200 md:text-4xl lg:text-5xl">Stop <span class="text-orange-400">Big</span> Boba. End This <span class="text-blue-400">Now.</span></h1>
+                    <a class="block w-48 p-3 mx-auto mt-8 text-lg font-medium text-center text-gray-200 bg-transparent border-2 border-gray-300 hover:bg-white hover:text-gray-800" href="https://youtu.be/7v1jOe2AGjY">Watch the Video</a>
+                </div>
+            </div>
+        </div>
+        <div class="w-full px-4 py-8 my-10 text-xl sm:px-8 md:px-24">
+            <div class="max-w-4xl mx-auto text-gray-800">
+                <h1 class="mb-2 text-3xl font-bold text-center">Big Boba has preyed on our children for too long.</h1>
+                <h2 class="text-2xl font-medium text-center">Now is the time to act.</h2>
+                <p class="mt-4">We are <span class="font-semibold">Stop Big Boba</span> and we are committed to ending the malicious practices and cruelty of Big Boba.</p>
+                <p class="mt-4"><span class="font-semibold">Did you know</span> that the addictive chemical in boba, <span class="italic"><span class="whitespace-no-wrap">α-D-glucopyranoside</span> <span class="whitespace-no-wrap">β-D-fructofuranosyl</span></span>, is a major cause in <span class="font-semibold">heart disease, diabetes, and obesity</span>? The primary ingredient in boba, <span class="italic">hydrogen oxide</span>, is also used in nuclear reactors as a coolant. Does that sound like something you want in your body?</p>
+                <img class="w-1/2 mx-auto mt-8 rounded" src="/assets/boba.jpg" alt="boba in glass jars sitting against wood paneling">
+                <p class="mt-4 text-base text-center text-gray-600">Boba is high in dangerous, addictive chemicals.</p>
+                <p class="mt-6"><span class="font-semibold">How does Big Boba actually target teenagers?</span> The short answer: Advertising. Many online influencers promote "doing boba", and kids are noticing. This causes a vicious cycle of boba content consumption, peer pressure, which causes more "pro-boba" content to be made. With this much exposure, it's no wonder kids are getting addicted, and fast!</p>
+                <p class="mt-4"><span class="font-semibold">What can I do to help?</span> Raise awareness. Until the malicious practices of Big Boba become mainstream, our power is truly limited. Lawmakers have been historically very reluctant to do anything about issues like this, and the power of capitalism and the free market has always promoted anything you can do to get ahead, even if this means pumping your products full of addictive chemicals. Luckily, if we all come together and raise our voices, we can be stronger together.</p>
+                <p class="mt-8 text-2xl font-bold text-center">Together, we can <span class="ml-2 text-3xl font-extrabold">Stop Big Boba.</span></p>
+            </div>
+        </div>
+
+        <footer class="text-gray-200 bg-teal-900">
+            <div class="flex items-center justify-center w-full py-8">
+                <p class="text-lg">Stop Big Boba © {{ datetime.year }}</p>
+            </div>
+        </footer>
+    </body>
+</html>

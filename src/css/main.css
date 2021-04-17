@@ -4,6 +4,46 @@
 
 @tailwind utilities;
 
-.darken-40 {
+@layer utilities {
+  .darken-40 {
     filter: brightness(40%);
+  }
+}
+
+@layer base {
+  @media (max-width: 400px) {
+    .aspect-ratio {
+      padding-top: calc(600 / 400 * 100%);
+    }
+  }
+  @media (min-width: 401px) and (max-width: 500px) {
+    .aspect-ratio {
+      padding-top: calc(600 / 500 * 100%);
+    }
+  }
+  @media (min-width: 501px) and (max-width: 600px) {
+    .aspect-ratio {
+      padding-top: calc(600 / 600 * 100%);
+    }
+  }
+  @media (min-width: 601px) and (max-width: 800px) {
+    .aspect-ratio {
+      padding-top: calc(600 / 800 * 100%);
+    }
+  }
+  @media (min-width: 801px) and (max-width: 1000px) {
+    .aspect-ratio {
+      padding-top: calc(600 / 1000 * 100%);
+    }
+  }
+  @media (min-width: 1001px) and (max-width: 1500px) {
+    .aspect-ratio {
+      padding-top: calc(600 / 1500 * 100%);
+    }
+  }
+  @media (min-width: 1501px) {
+    .aspect-ratio {
+      padding-top: calc(600 / 2000 * 100%);
+    }
+  }
 }
